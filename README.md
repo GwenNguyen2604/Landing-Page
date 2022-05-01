@@ -1,2 +1,2 @@
 # Landing-Page
-Website practice
+HTML and CSS Website practice
