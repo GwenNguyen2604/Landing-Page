@@ -1,0 +1,185 @@
+/* =========================================================== */
+/*        This is the CSS file for Page-Landing project        */
+/* =========================================================== */
+
+
+/* ===================================== */
+/* ============= General =============== */
+/* ===================================== */
+* {
+    font-family:-apple-system, BlinkMacSystemFont, 
+                'Segoe UI', Roboto, Oxygen, 
+                 Ubuntu, Cantarell, 'Open Sans',
+                'Helvetica Neue', sans-serif;
+    font-size: 18px;    /*18px unless otherwise noted*/
+}
+/* size of the page */
+body {
+    min-width: 1820px;
+    max-width: 1820px;
+}
+/* format for all links in this site */
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+} 
+/* format for all buttons in this site */
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    font-style: bold;
+    padding: 6px 30px 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+/* ===================================== */
+/* =========== Header area ============= */
+/* ===================================== */
+.darkBlue {
+    color: #E5E7EB;
+    margin: 0px 250px 0px 250px; 
+    padding: 0px 150px 120px 150px;
+    background-color: #1F2937;
+    display: flex; 
+}
+    /* ============ header ============= */
+    .headerLogo img {
+        margin-top: 10px;
+        height: 100px;
+        width: 100px;
+    }
+    /* ============ Intro ============== */
+    .introBlock {
+        margin: 40px 20px 0px 0px;
+    }
+        .introBlock h1 {
+            font-size: 48px;
+            font-weight: bolder;
+            margin-bottom: 0px;
+        }
+        .introBlock p {
+            margin-top: 0px;
+        }
+    /* ============ links ============== */
+    .linkContainer {
+        margin-top: 30px;
+        display: flex;
+        justify-content: right;
+        gap: 20px;
+    }
+    /* ============ image ============== */
+    .right img {
+        margin-top: 120px;
+        height: 175pt;
+        width: 375pt;
+    }
+
+
+/* ===================================== */
+/* ============ Body area ============== */
+/* ===================================== */
+.white {
+    margin: 0px 250px 0px 250px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+}
+    /* ============ Info ============== */
+    #ranInfo h2 {
+        font-size: 32px;
+        font-weight: bolder;
+    }
+    /* ========= img and capt ========== */
+    .blockObj {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex: 2;
+    }
+        .obj {
+            width: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+            .obj img {
+                height: 150px;
+                width: 150px; 
+                border: 3px solid #3882F6;
+                border-radius: 10px;
+                margin-bottom: 0px;
+            }
+            .obj p {
+                margin-top: 0px;
+                font-size: 15px;
+                font-weight: lighter;
+                text-align: center;
+            }
+    /* ========== Quote Area =========== */
+    .quote {
+        flex:3;
+        background-color: #E5E7EB;
+        margin: 100px 0px 100px 0px;
+        padding: 100px 300px 80px 300px;
+    }
+        #para p {
+            font-size: 36px;
+            font-style: italic;
+            font-weight: lighter;
+        }
+        #author p {
+            text-align: right;
+            font-style: bold;
+            font-size: 22px;
+            font-weight: bolder;
+        }
+    /* ======== sign up block ========== */
+    .brightBlue {
+        background-color: #3882F6;
+        border-radius: 10px;
+        padding: 30px 100px 30px 100px;
+        color: #FFFF;
+        display: flex;
+    }
+        .urg {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 2;
+        }
+            .urg h2 {
+                margin-bottom: 0px;
+            }
+            .urg p {
+                margin-top: 0px;
+            }
+        #theButton {
+            padding-left: 100pt;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+            #theButton button {
+                border: 2px solid #FFFF;
+            }
+
+
+/* ===================================== */
+/* ============== Footer =============== */
+/* ===================================== */
+.footerBlue {
+    color: #E5E7EB;
+    margin: 100px 250px 0px 250px; 
+    padding: 20px 10px 25px 10px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
