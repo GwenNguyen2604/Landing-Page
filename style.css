@@ -126,7 +126,7 @@ button {
         gap: 60px;
         flex: 2;
     }
-        #obj1, #obj2, #obj3, #obj4 {
+        .obj {
             width: 150px;
             display: flex;
             flex-direction: column;
