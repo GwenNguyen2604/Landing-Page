@@ -6,22 +6,24 @@
 /* ============= Header area ============== */
 @media screen and (max-width: 1100px) {
     .darkBlue {
-        padding: 0px 80px 80px 80px;
         display: grid;
-        grid-template-columns: repeat(1fr, 3);
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
         .headerLogo img {
+            margin: 30px 80px;
             grid-column: 1;     
             grid-row: 1;
         }
-        .introBlock {
-            grid-column: 1/4;   
-            grid-row: 2/4;
-        }
         .linkContainer {
+            margin: 30px 80px;
             grid-column: 2/4;   
             grid-row: 1;
+        }
+        .introBlock {
+            margin-left: 80px;
+            grid-column: 1/4;   
+            grid-row: 2/4;
         }
         .promoImg img {
             display: none;

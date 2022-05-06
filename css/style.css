@@ -51,48 +51,61 @@ button {
     max-width: 1320px; 
     margin: 0 auto;
 }
+.darkBlue, .white, .footerBlue {
+    margin: 0px;
+}
 
 /* ===================================== */
 /* =========== Header area ============= */
 /* ===================================== */
 .darkBlue {
     color: #E5E7EB;
-    padding: 30px 125px 100px 125px;
+    height: 600px;
     background-color: #1F2937;
     display: grid; 
-    grid-template-columns: repeat(1fr, 4);
-    grid-auto-rows: minmax(auto, 100px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 140px;
     gap: 10px;
 }
-    /* ============ header ============= */
-    .headerLogo img {
-        grid-column: 1;
+    /* ==== row 1 shared attributes ===== */
+    .headerLogo img, .linkContainer {
+        margin: 30px 125px;
         grid-row: 1;
     }
+        /* ========== header logo =========== */
+        .headerLogo img {
+            grid-column: 1;
+        }
+        /* ============ links ============== */
+        .linkContainer {
+            display: flex;
+            justify-content: right;
+            grid-column: 3/5;
+            gap: 20px;
+        }
     /* ============ Intro ============== */
     .introBlock {
-        margin-right: 20px;
+        margin-left: 125px;
+        max-width: 500px;
+        max-height: 300px;
+        display:flex;
+        flex-direction: column;
+        align-items: start;
         grid-column: 1/3;
         grid-row: 2/5;
     }
         .introBlock h1 {
             font-size: 48px;
-        }
-    /* ============ links ============== */
-    .linkContainer {
-        display: flex;
-        justify-content: right;
-        grid-column: 3/5;
-        grid-row: 1;
-        gap: 20px;
-    }
+        }  
     /* ========== top image ============ */
     .promoImg {
+        margin-right: 125px;
         grid-column: 3/5;
         grid-row: 2/5;
         display:flex;
         justify-content: right; 
-        align-items: center;    
+        align-items: center;
+        height: 300px; 
     }
         .promoImg img {
             border-radius: 7px;
@@ -107,6 +120,7 @@ button {
 /* ============ Body area ============== */
 /* ===================================== */
 .white {
+    padding-top: 10px;
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
