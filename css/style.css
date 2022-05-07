@@ -17,6 +17,7 @@
 body {
     background-color: #DEB887;
     margin: 0px 0px 0px 0px;
+    min-height: 100vh;
 }
 /* format for all links in this site */
 a {
