@@ -16,8 +16,7 @@
 /* size of the page */
 body {
     background-color: #DEB887;
-    margin: 0px 0px 0px 0px;
-    min-height: 100vh;
+    margin: 0px;
 }
 /* format for all links in this site */
 a {
@@ -121,18 +120,18 @@ button {
 /* ============ Body area ============== */
 /* ===================================== */
 .white {
-    padding-top: 10px;
-    padding-bottom: 60px;
+    max-height: 2000px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: #1F2937;
     background-color: #FFFF;
 }
     /* ============ Info ============== */
     #ranInfo h2 {
         font-size: 32px;
-        margin: 20px 0px 20px 0px;
+        margin: 20px;
     }
     /* ========= img and capt ========== */
     .blockObj {
@@ -165,7 +164,6 @@ button {
         background-color: #E5E7EB;
         box-sizing: border-box;
         width: 100%; 
-        margin: 50px;
         padding: 55px;
         display: flex;
         justify-content: center;          
@@ -186,6 +184,7 @@ button {
     /* ======== sign up block ========== */
     .brightBlue {
         background-color: #3882F6;
+        margin: 60px;
         padding: 10px 70px;
         border-radius: 10px;
         color: #FFFF;
@@ -212,7 +211,7 @@ button {
 /* ===================================== */
 .footerBlue {
     color: #E5E7EB;
-    padding: 25px 10px 25px 10px;
+    padding: 25px 10px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
