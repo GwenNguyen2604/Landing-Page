@@ -68,13 +68,15 @@ button {
     gap: 10px;
 }
     /* ==== row 1 shared attributes ===== */
-    .headerLogo img, .linkContainer {
+    .headerLogo, .linkContainer {
         margin: 30px 125px;
         grid-row: 1;
     }
         /* ========== header logo =========== */
-        .headerLogo img {
+        .headerLogo {
             grid-column: 1;
+            display: flex;
+            justify-content: left;
         }
         /* ============ links ============== */
         .linkContainer {
