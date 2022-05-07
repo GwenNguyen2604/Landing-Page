@@ -137,6 +137,8 @@ button {
     }
     /* ========= img and capt ========== */
     .blockObj {
+        max-width: 780px;
+        height: 300px;
         display: flex;
         justify-content: center;
         gap: 60px;
@@ -144,7 +146,6 @@ button {
     }
         .obj {
             width: 150px;
-            height: 300px;
             display: flex;
             flex-direction: column;
             align-items: center;
